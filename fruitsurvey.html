@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+      }
+
+      form {
+        margin-left: 20%;
+      }
+      form label {
+        display: inline-block;
+      }
+
+      form label {
+        width: 30%;
+        text-align: right;
+        padding-bottom: 20px;
+        padding-right: 5px;
+      }
+
+      body {
+        background-color: rgb(229, 255, 0, 0.7);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; background-color: rgb(255, 234, 9)">
+      The world of fruit
+    </h1>
+    <br /><br />
+    <h3 style="text-align: center">fruit survey</h3>
+    <br />
+    <form action="">
+      <label for="">Name </label>
+      <input type="text" name="" placeholder="enter your name" /> <br>
+
+      <label for="">Address</label>
+      <input type="text" placeholder="enter your address" /> <br />
+
+      <label for="">Email </label>
+      <input type="email" placeholder="enter your email" /> <br />
+
+      <label for="fruit">How many pieces of fruit you eat per day ?</label>
+      <div style="display: inline-block">
+        <input type="radio" name="fruit" /> 0 <br />
+        <input type="radio" name="fruit" /> 1 <br />
+        <input type="radio" name="fruit" /> 2 <br />
+        <input type="radio" name="fruit" /> more than 2
+      </div>
+      <br />
+
+      <label for=""> My favorite fruit</label>
+      <select id="fruit" required >
+        <option value="male">apple</option>
+        <option value="female">banana</option>
+        <option value="other">plum</option>
+        <option value="other">pomegrenate</option>
+      </select>
+      <br />
+
+      <label for="">Would you like a brouchure ?</label>
+      <input type="checkbox" name="" id="" /> <br />
+
+      <button action="submit" style="margin-left: 30%">Submit</button>
+    </form>
+  </body>
+</html>
